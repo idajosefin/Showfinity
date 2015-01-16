@@ -1,0 +1,7 @@
+#featured-1, #featured-2, #featured-3, #triptych-1, #triptych-2, #triptych-3,
+#footer-col-1, #footer-col-2, #footer-col-3, #footer-col-4,
+#main, #sidebar, #flash {
+  background: lightGrey;
+  min-height: 44px;
+  text-align: center;
+}

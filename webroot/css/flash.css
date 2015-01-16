@@ -1,0 +1,30 @@
+.FlashMessages_info, .FlashMessages_success, .FlashMessages_warning, .FlashMessages_error {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.FlashMessages_info {
+    color: #31708F;
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+}
+.FlashMessages_success {
+    color: #3C763D;
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+}
+.FlashMessages_warning {
+    color: #8A6D3B;
+    background-color: #FCF8E3;
+    border-color: #FAEBCC;
+}
+.FlashMessages_error {
+    color: #A94442;
+    background-color: #F2DEDE;
+    border-color: #EBCCD1;
+}
+.FlashMessages_info i, .FlashMessages_success i, .FlashMessages_warning i, .FlashMessages_error i {
+    font-size: 1.5em;
+    vertical-align: middle;
+}

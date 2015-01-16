@@ -1,0 +1,48 @@
+#header,
+#navbar,
+#flash,
+#footer {
+    .column(@columns);
+    margin-bottom: 22px;
+}
+ 
+#main {
+    .column(@columns / 3 * 2);
+    margin-bottom: 22px;
+}
+ 
+#sidebar {
+    .column(@columns / 3);
+    margin-bottom: 22px;
+}
+ 
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+    .column(@columns / 3);
+}
+ 
+#footer-col-1,
+#footer-col-2,
+#footer-col-3, 
+#footer-col-4 {
+    .column(@columns / 4);
+}
+
+#wrap-featured,
+#wrap-main,
+#wrap-triptych,
+#wrap-footer-col {
+    .clearfix();
+}
+
+#wrapper {
+    margin: 0px auto; 
+}
+
+#wrapper:hover {
+    background-image: url("../../img/grid_12_60_20.png");
+}
